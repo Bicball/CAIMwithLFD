@@ -103,7 +103,7 @@ class CAIMD(BaseEstimator, TransformerMixin):
             freqAvg = np.average(xjunique[1])
             allsplits = np.unique(xj)[1:-1].tolist()
             for k in range(xjunique[0].size):
-                if xjunique[1][k] < freqAvg:
+                if xjunique[1][k] > freqAvg:
                     if xjunique[0][k] in allsplits:
                         allsplits.remove(xjunique[0][k])
 
