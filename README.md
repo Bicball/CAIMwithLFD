@@ -1,9 +1,9 @@
-CAIM
+CAIM with Frequency Analisys
 =====
 
-# A modification of Python implementation of *Class-attribute interdependence maximization* algorithm<sup>1</sup> for supervised discretization of datasets w/ missing values with cut-points selection based on *frequency analysis* algorithm<sup>2</sup>
-## This implementation was applied for cluster description with *CAIBAL - Cluster-Attribute Interdependency Based Automatic Labeler* algorithm<sup>3</sup>
-
+## A modification of Python implementation of *Class-attribute interdependence maximization* algorithm<sup>1</sup> for supervised discretization of datasets w/ missing values applying cut-points selection based on frequency analysis from *LFD* algorithm<sup>2</sup>
+## This implementation was applied for cluster description with *CAIBAL - Cluster-Attribute Interdependency Based Automatic Labeler* <sup>3</sup>
+### The implementation of CAIM was obtained from https://github.com/airysen/caimcaim
 Reference
 ----------
 [1] *"L. A. Kurgan and K. J. Cios (2004), CAIM discretization algorithm, in IEEE Transactions on Knowledge and Data Engineering, vol. 16, no. 2, pp. 145-153, Feb. 2004. doi: 10.1109/TKDE.2004.1269594"*
