@@ -1,7 +1,10 @@
 CAIM with Frequency Analisys
 =====
 
-## A modification of Python implementation of *Class-attribute interdependence maximization* algorithm<sup>1</sup> provided by https://github.com/airysen (https://github.com/airysen/caimcaim). This implementation was made for cluster description with *CAIBAL - Cluster-Attribute Interdependency Based Automatic Labeler* <sup>2</sup> and implements low frequency verification criteria for candidate cut points <sup>3</sup> and changes the condition to accept a cut point for discretization.
+A modification of Python implementation of *Class-attribute interdependence maximization* algorithm<sup>1</sup> provided by https://github.com/airysen (https://github.com/airysen/caimcaim). This implementation was made for cluster description with *CAIBAL - Cluster-Attribute Interdependency Based Automatic Labeler* <sup>2</sup> and implements:
+   - low frequency verification criteria for candidate cut points <sup>3</sup>;
+   - changes the condition to accept a cut point for discretization intervals (CAIM > GlobalCAIM **and** K<S);
+   - correct show cut points intervals values.
 
 Reference
 ----------
