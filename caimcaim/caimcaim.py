@@ -129,7 +129,7 @@ class CAIMD(BaseEstimator, TransformerMixin):
                         best_caim = c
                         best_scheme = scheme
                         best_point = sp
-                if (k <= min_splits) or (best_caim > global_caim):
+                if (k <= min_splits) and (best_caim > global_caim): #Modification for CAIBAL
                     mainscheme = best_scheme
                     global_caim = best_caim
                     try:
